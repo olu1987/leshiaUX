@@ -1,0 +1,36 @@
+.container{
+  h1{
+    font-size: 100px;
+  }
+}
+
+.tile{
+  background: #cccccc;
+  border: 1px solid #ffffff;
+  height:400px;
+  text-align: center;
+  transition: all ease-in-out 300ms;
+  &:hover{
+    background: #e5e5e5;
+    h3{
+      color:rgba(0,0,0,1);
+    }
+  }
+  h3{
+    color:rgba(0,0,0,0);
+    transition: all ease-in-out 300ms;
+  }
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+//Responsive styles
+
+@media(max-width: 1520px){
+  .container{
+    width:100%;
+  }
+}
