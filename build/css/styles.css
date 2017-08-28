@@ -1,3 +1,6 @@
+body {
+  font-family: 'Raleway', sans-serif; }
+
 .container h1 {
   font-size: 100px; }
 
@@ -15,8 +18,12 @@
     color: transparent;
     transition: all ease-in-out 300ms; }
 
-body {
-  font-family: 'Raleway', sans-serif; }
+.navigation li a {
+  color: #444; }
+
+.footer {
+  height: 150px;
+  padding: 50px; }
 
 @media (max-width: 1520px) {
   .container {
