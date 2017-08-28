@@ -1,8 +1,9 @@
 body {
   font-family: 'Raleway', sans-serif; }
 
-.container h1 {
-  font-size: 100px; }
+.center {
+  margin: 0 auto;
+  display: block; }
 
 .tile {
   background: #cccccc;
@@ -20,6 +21,20 @@ body {
 
 .navigation li a {
   color: #444; }
+
+.header {
+  background: url(../../img/header-bg-home.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  padding-top: 300px; }
+  .header h1 {
+    font-size: 65px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #ffffff; }
+  .header img.logo {
+    width: 70px; }
 
 .footer {
   height: 150px;
