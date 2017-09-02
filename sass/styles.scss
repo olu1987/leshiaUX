@@ -235,8 +235,6 @@ body{
 }
 
 
-
-
 .container{
 
 }
@@ -356,6 +354,58 @@ body{
 
 .what-i-use{
   background: #d9d9da;
+  padding: 48px 15px;
+  font-size: 30px;
+  color: #12456f;
+  transition: all ease-in-out 300ms;
+  opacity: 0.5;
+  h3{
+    color: #ffffff;
+  }
+  &.active{
+    background: #e1e1e2;
+    opacity: 1;
+    .photoshop{
+      .bar{
+        width:90%;
+      }
+    }
+    .illustrator{
+      .bar{
+        width:95%;
+      }
+    }
+    .handrawing{
+      .bar{
+        width:80%;
+      }
+    }.html{
+      .bar{
+        width:35%;
+      }
+    }.css{
+      .bar{
+        width:30%;
+      }
+    }
+
+  }
+}
+
+.graph-bar{
+  height:4px;
+  background: rgba(255, 255, 255, 0);
+  width:100%;
+  margin-top: 5px;
+  border-radius: 3px;
+  .bar{
+    width:0%;
+    background:#343e73;
+    height:100%;
+    transition: all ease-in-out 2000ms;
+    border-radius: 3px;
+  }
+
 }
 
 .footer{

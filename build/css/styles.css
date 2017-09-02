@@ -253,7 +253,40 @@ body {
     width: 70px; }
 
 .what-i-use {
-  background: #d9d9da; }
+  background: #d9d9da;
+  padding: 48px 15px;
+  font-size: 30px;
+  color: #12456f;
+  transition: all ease-in-out 300ms;
+  opacity: 0.5; }
+  .what-i-use h3 {
+    color: #ffffff; }
+  .what-i-use.active {
+    background: #e1e1e2;
+    opacity: 1; }
+    .what-i-use.active .photoshop .bar {
+      width: 90%; }
+    .what-i-use.active .illustrator .bar {
+      width: 95%; }
+    .what-i-use.active .handrawing .bar {
+      width: 80%; }
+    .what-i-use.active .html .bar {
+      width: 35%; }
+    .what-i-use.active .css .bar {
+      width: 30%; }
+
+.graph-bar {
+  height: 4px;
+  background: rgba(255, 255, 255, 0);
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 3px; }
+  .graph-bar .bar {
+    width: 0%;
+    background: #343e73;
+    height: 100%;
+    transition: all ease-in-out 2000ms;
+    border-radius: 3px; }
 
 .footer {
   height: 150px;
