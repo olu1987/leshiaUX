@@ -330,11 +330,8 @@ body{
 }
 
 .header{
-  background: url(../../img/header-bg-home.jpg);
-  background-size: cover;
-  background-attachment: fixed;
   min-height: 500px;
-  padding-top: 300px;
+  padding-top: 200px;
   h1{
     font-size: 65px;
     margin-bottom: 10px;
@@ -352,8 +349,11 @@ body{
   }
 }
 
+.what-i-do{
+  padding: 34px 15px;
+}
+
 .what-i-use{
-  background: #d9d9da;
   padding: 48px 15px;
   font-size: 30px;
   color: #12456f;
@@ -363,7 +363,6 @@ body{
     color: #ffffff;
   }
   &.active{
-    background: #e1e1e2;
     opacity: 1;
     .photoshop{
       .bar{
