@@ -246,12 +246,44 @@ body{
   display: block;
 }
 
+.hover-overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(61, 61, 61, 0.3);
+  z-index: 10;
+  transition: all ease-in-out 300ms;
+  opacity: 0;
+  ul{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    list-style-type: none;
+    margin-top: 100px;
+    transition: all ease-in-out 300ms;
+
+    li{
+      color:#ffffff;
+      font-size: 30px;
+    }
+  }
+  &:hover{
+   opacity: 1;
+  }
+}
+
 .tile{
+  position: relative;
   background: #cccccc;
   border: 1px solid #ffffff;
   text-align: center;
   transition: all ease-in-out 300ms;
   cursor:pointer;
+
+
 
   &.bodhan{
     background: #fdfaf5;
@@ -282,7 +314,7 @@ body{
 
   &:hover{
     img{
-      margin-left: 100px;
+      transform: scale(0.8);
     }
   }
   h3{
