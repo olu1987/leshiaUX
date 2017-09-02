@@ -189,7 +189,8 @@ body {
   background: rgba(61, 61, 61, 0.2);
   z-index: 10;
   transition: all ease-in-out 300ms;
-  opacity: 0; }
+  opacity: 0;
+  display: block; }
   .hover-overlay ul {
     position: absolute;
     margin-left: auto;
@@ -209,7 +210,6 @@ body {
 .tile {
   position: relative;
   background: #cccccc;
-  border: 1px solid #ffffff;
   text-align: center;
   transition: all ease-in-out 300ms;
   cursor: pointer; }
@@ -220,7 +220,7 @@ body {
   .tile.covervidz {
     background: #9d89b3; }
   .tile.bus img {
-    margin-top: 50px;
+    margin-top: 0;
     margin-bottom: 50px; }
   .tile img {
     margin-top: 100px;
@@ -263,7 +263,7 @@ body {
   .what-i-use.active {
     opacity: 1; }
     .what-i-use.active .photoshop .bar {
-      width: 90%; }
+      width: 95%; }
     .what-i-use.active .illustrator .bar {
       width: 95%; }
     .what-i-use.active .handrawing .bar {
@@ -285,6 +285,19 @@ body {
     height: 100%;
     transition: all ease-in-out 2000ms;
     border-radius: 3px; }
+
+.lnt-bg-blue {
+  background: #c5d3d9; }
+
+.lnt {
+  color: #ffffff; }
+  .lnt .promo h1 {
+    font-size: 40px; }
+  .lnt .promo p, .lnt .promo li {
+    font-size: 20px; }
+  .lnt .promo ul {
+    list-style-type: none;
+    margin-top: 50px; }
 
 .footer {
   height: 150px;
