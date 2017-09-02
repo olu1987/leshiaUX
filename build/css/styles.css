@@ -289,13 +289,16 @@ body {
 .lnt-bg-blue {
   background: #c5d3d9; }
 
-.lnt {
+.covervidz-bg-purple {
+  background: #6b3e9c; }
+
+.lnt, .covervidz {
   color: #ffffff; }
-  .lnt .promo h1 {
+  .lnt .promo h1, .covervidz .promo h1 {
     font-size: 40px; }
-  .lnt .promo p, .lnt .promo li {
+  .lnt .promo p, .lnt .promo li, .covervidz .promo p, .covervidz .promo li {
     font-size: 20px; }
-  .lnt .promo ul {
+  .lnt .promo ul, .covervidz .promo ul {
     list-style-type: none;
     margin-top: 50px; }
 
