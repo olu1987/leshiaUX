@@ -186,9 +186,17 @@ body {
   background: #cccccc;
   border: 1px solid #ffffff;
   text-align: center;
-  transition: all ease-in-out 300ms; }
+  transition: all ease-in-out 300ms;
+  cursor: pointer; }
   .tile.bodhan {
     background: #fdfaf5; }
+  .tile.lnt {
+    background: #d5e5ea; }
+  .tile.covervidz {
+    background: #9d89b3; }
+  .tile.bus img {
+    margin-top: 50px;
+    margin-bottom: 50px; }
   .tile img {
     margin-top: 100px;
     margin-bottom: 100px;
