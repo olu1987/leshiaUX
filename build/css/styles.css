@@ -115,6 +115,9 @@ body {
 .pr-50 {
   padding-right: 50px !important; }
 
+.mt-0 {
+  margin-top: 0 !important; }
+
 .mt-10 {
   margin-top: 10px !important; }
 
@@ -301,13 +304,16 @@ body {
 .bodhan-yellow-bg-2 {
   background: #fcf9d7; }
 
-.lnt, .covervidz, .bodhan {
+.bus-bg-green {
+  background: #4ca041; }
+
+.lnt, .covervidz, .bodhan, .buses {
   color: #ffffff; }
-  .lnt .promo h1, .covervidz .promo h1, .bodhan .promo h1 {
+  .lnt .promo h1, .covervidz .promo h1, .bodhan .promo h1, .buses .promo h1 {
     font-size: 40px; }
-  .lnt .promo p, .lnt .promo li, .covervidz .promo p, .covervidz .promo li, .bodhan .promo p, .bodhan .promo li {
+  .lnt .promo p, .lnt .promo li, .covervidz .promo p, .covervidz .promo li, .bodhan .promo p, .bodhan .promo li, .buses .promo p, .buses .promo li {
     font-size: 20px; }
-  .lnt .promo ul, .covervidz .promo ul, .bodhan .promo ul {
+  .lnt .promo ul, .covervidz .promo ul, .bodhan .promo ul, .buses .promo ul {
     list-style-type: none;
     margin-top: 50px; }
 

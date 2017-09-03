@@ -150,6 +150,9 @@ body{
   padding-right: 50px!important
 }
 
+.mt-0 {
+  margin-top: 0!important
+}
 .mt-10 {
   margin-top: 10px!important
 }
@@ -422,7 +425,11 @@ body{
   background: #fcf9d7;
 }
 
-.lnt,.covervidz,.bodhan{
+.bus-bg-green{
+  background: #4ca041;
+}
+
+.lnt,.covervidz,.bodhan, .buses{
   color: #ffffff;
   .promo{
     h1{
