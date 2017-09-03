@@ -235,10 +235,6 @@ body{
 }
 
 
-.container{
-
-}
-
 .center{
   margin: 0 auto;
   display: block;
@@ -419,7 +415,14 @@ body{
   background: #8363a7;
 }
 
-.lnt,.covervidz{
+.bodhan-yellow-bg-1{
+  background: #f3eeb0;
+}
+.bodhan-yellow-bg-2{
+  background: #fcf9d7;
+}
+
+.lnt,.covervidz,.bodhan{
   color: #ffffff;
   .promo{
     h1{
@@ -435,6 +438,10 @@ body{
   }
 
   }
+
+body.bodhan{
+  color:#000000;
+}
 
 .footer{
   height: 150px;

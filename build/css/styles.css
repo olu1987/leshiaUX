@@ -295,15 +295,24 @@ body {
 .covervidz-bg-purple-2 {
   background: #8363a7; }
 
-.lnt, .covervidz {
+.bodhan-yellow-bg-1 {
+  background: #f3eeb0; }
+
+.bodhan-yellow-bg-2 {
+  background: #fcf9d7; }
+
+.lnt, .covervidz, .bodhan {
   color: #ffffff; }
-  .lnt .promo h1, .covervidz .promo h1 {
+  .lnt .promo h1, .covervidz .promo h1, .bodhan .promo h1 {
     font-size: 40px; }
-  .lnt .promo p, .lnt .promo li, .covervidz .promo p, .covervidz .promo li {
+  .lnt .promo p, .lnt .promo li, .covervidz .promo p, .covervidz .promo li, .bodhan .promo p, .bodhan .promo li {
     font-size: 20px; }
-  .lnt .promo ul, .covervidz .promo ul {
+  .lnt .promo ul, .covervidz .promo ul, .bodhan .promo ul {
     list-style-type: none;
     margin-top: 50px; }
+
+body.bodhan {
+  color: #000000; }
 
 .footer {
   height: 150px;
