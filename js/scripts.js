@@ -43,4 +43,19 @@ $( document ).ready(function() {
         })
 
     }();
+
+    window.addEventListener('load',function(){
+
+        var loader = document.getElementById('loader');
+
+        setTimeout(function(){
+            removeClass(loader,'active');
+        },1000);
+
+        setTimeout(function(){
+            addClass(loader,'hidden');
+        },1800)
+
+
+    })
 });

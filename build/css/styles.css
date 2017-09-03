@@ -192,7 +192,13 @@ body {
 
 .lt-icon {
   width: 100px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 42.8vh; }
 
 .home-sub-header, .carousel {
   font-family: 'Raleway', sans-serif; }
@@ -229,6 +235,8 @@ body {
 
 .carousel {
   background: #f1f1f1; }
+  .carousel .carousel-control .glyphicon-chevron-left, .carousel .carousel-control .glyphicon-chevron-right {
+    top: 55%; }
   .carousel blockquote {
     border-left: none; }
   .carousel .carousel-control .glyphicon-chevron-left, .carousel .carousel-control .glyphicon-chevron-right, .carousel .carousel-control .icon-next, .carousel .carousel-control .icon-prev {
@@ -365,6 +373,48 @@ body.bodhan {
   .bodhan .back-button:hover, .bodhan .back-button:focus, .lnt .back-button:hover, .lnt .back-button:focus {
     color: #444; }
 
+.loader-container {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  transition: all ease-in-out 800ms;
+  opacity: 0; }
+  .loader-container.active {
+    opacity: 1; }
+
+.sp {
+  width: 132px;
+  height: 132px;
+  clear: both;
+  margin: 0px auto;
+  margin-top: 40vh; }
+
+/* Spinner Circle Rotation */
+.sp-circle {
+  border: 4px rgba(0, 0, 0, 0.25) solid;
+  border-top: 4px black solid;
+  border-radius: 50%;
+  -webkit-animation: spCircRot .6s infinite linear;
+  animation: spCircRot .6s infinite linear; }
+
+@-webkit-keyframes spCircRot {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg); } }
+
+@keyframes spCircRot {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+
+blockquote .small:after, blockquote footer:after, blockquote small:after {
+  content: '\2014 \00A0'; }
+
 .footer {
   height: 150px;
   padding: 50px;
@@ -374,5 +424,9 @@ body.bodhan {
 @media (max-width: 1520px) {
   .container {
     width: 100%; } }
+
+@media (min-width: 767px) {
+  .bodhan-devices {
+    margin-left: -23px; } }
 
 /*# sourceMappingURL=styles.css.map */
