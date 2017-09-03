@@ -194,7 +194,7 @@ body {
   width: 100px;
   border-radius: 10px; }
 
-.home-sub-header {
+.home-sub-header, .carousel {
   font-family: 'Raleway', sans-serif; }
 
 .hover-overlay {
@@ -221,6 +221,21 @@ body {
       font-size: 30px; }
   .hover-overlay:hover {
     opacity: 1; }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none; }
+  .carousel-control.left i, .carousel-control.right i {
+    color: #444444; }
+
+.carousel {
+  background: #f1f1f1; }
+  .carousel blockquote {
+    border-left: none; }
+  .carousel .carousel-control .glyphicon-chevron-left, .carousel .carousel-control .glyphicon-chevron-right, .carousel .carousel-control .icon-next, .carousel .carousel-control .icon-prev {
+    color: #343e73; }
+  .carousel .img-circle {
+    height: 150px;
+    width: 150px; }
 
 .tile {
   position: relative;

@@ -255,7 +255,7 @@ body{
   border-radius: 10px;
 }
 
-.home-sub-header{
+.home-sub-header, .carousel{
   font-family: 'Raleway', sans-serif;
 }
 
@@ -287,6 +287,27 @@ body{
   }
   &:hover{
    opacity: 1;
+  }
+}
+
+.carousel-control.left, .carousel-control.right{
+  background-image: none;
+  i{
+    color: #444444;
+  }
+}
+
+.carousel{
+  background: #f1f1f1;
+  blockquote{
+    border-left: none;
+  }
+  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+    color:#343e73;
+  }
+  .img-circle{
+    height: 150px;
+    width:150px;
   }
 }
 
@@ -499,6 +520,8 @@ body.bodhan{
   background: #fff;
   color: #444444;
 }
+
+
 
 
 //Responsive styles
