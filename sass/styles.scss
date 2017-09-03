@@ -537,6 +537,20 @@ body.bodhan{
   }
 }
 
+.bottom-promo{
+  padding-bottom: 300px;
+  position: relative;
+  .back-button{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width:80px;
+    left:0;
+    right:0;
+    bottom: 20px;
+  }
+}
+
 
 $spCol: #000;
 
@@ -595,5 +609,8 @@ blockquote .small:after, blockquote footer:after, blockquote small:after {
 @media(min-width: 767px){
   .bodhan-devices{
     margin-left: -23px;
+  }
+  .covervidz-devices{
+    margin-left: -42px;
   }
 }

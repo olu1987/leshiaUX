@@ -50,11 +50,11 @@ $( document ).ready(function() {
 
         setTimeout(function(){
             removeClass(loader,'active');
-        },1000);
+        },500);
 
         setTimeout(function(){
             addClass(loader,'hidden');
-        },1800)
+        },1300)
 
 
     })
