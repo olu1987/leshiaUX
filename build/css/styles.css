@@ -185,6 +185,14 @@ body {
   margin: 0 auto;
   display: block; }
 
+.home-bg-blue {
+  background: #628fbc; }
+  .home-bg-blue h3 {
+    color: #12456f; }
+
+.home-sub-header {
+  font-family: 'Raleway', sans-serif; }
+
 .hover-overlay {
   position: absolute;
   height: 100%;
@@ -256,13 +264,14 @@ body {
   padding: 34px 15px; }
 
 .what-i-use {
-  padding: 48px 15px;
+  padding: 10px 15px 48px;
   font-size: 30px;
   color: #12456f;
   transition: all ease-in-out 300ms;
   opacity: 0.5; }
   .what-i-use h3 {
-    color: #ffffff; }
+    color: #ffffff;
+    margin-bottom: 40px; }
   .what-i-use.active {
     opacity: 1; }
     .what-i-use.active .photoshop .bar {
