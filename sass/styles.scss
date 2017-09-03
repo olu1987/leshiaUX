@@ -467,9 +467,37 @@ body.bodhan{
   color:#000000;
 }
 
+.back-button{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  &:hover,&:focus {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+  }
+}
+
+.back-button:active,.back-button:focus{
+  text-decoration: none;
+}
+
+.bodhan,.lnt{
+  .back-button{
+    color: #444;
+    &:hover,&:focus{
+    color: #444;
+  }
+
+  }
+}
+
+
 .footer{
   height: 150px;
   padding: 50px;
+  background: #fff;
+  color: #444444;
 }
 
 

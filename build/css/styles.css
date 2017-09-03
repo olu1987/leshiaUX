@@ -333,9 +333,28 @@ body {
 body.bodhan {
   color: #000000; }
 
+.back-button {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px; }
+  .back-button:hover, .back-button:focus {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px; }
+
+.back-button:active, .back-button:focus {
+  text-decoration: none; }
+
+.bodhan .back-button, .lnt .back-button {
+  color: #444; }
+  .bodhan .back-button:hover, .bodhan .back-button:focus, .lnt .back-button:hover, .lnt .back-button:focus {
+    color: #444; }
+
 .footer {
   height: 150px;
-  padding: 50px; }
+  padding: 50px;
+  background: #fff;
+  color: #444444; }
 
 @media (max-width: 1520px) {
   .container {
