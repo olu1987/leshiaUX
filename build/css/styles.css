@@ -190,6 +190,10 @@ body {
   .home-bg-blue h3 {
     color: #12456f; }
 
+.lt-icon {
+  width: 100px;
+  border-radius: 10px; }
+
 .home-sub-header {
   font-family: 'Raleway', sans-serif; }
 
