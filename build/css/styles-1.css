@@ -181,6 +181,9 @@ body {
 .mt-min-10 {
   margin-top: -10px; }
 
+.container {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.08); }
+
 .center {
   margin: 0 auto;
   display: block; }
@@ -276,10 +279,10 @@ body {
 .nav-sidebar {
   height: 100%;
   position: fixed;
-  width: 300px;
+  width: 250px;
   background: #444444;
-  z-index: 10;
-  right: -300px;
+  z-index: 100;
+  right: -250px;
   padding-top: 17px;
   transition: all ease-in-out 300ms; }
   .nav-sidebar.active {
@@ -457,10 +460,11 @@ blockquote .small:after, blockquote footer:after, blockquote small:after {
   cursor: pointer;
   transition: all ease-in-out 300ms; }
   .nav-toggle.active {
-    right: 320px; }
+    right: 270px; }
   .nav-toggle img {
     width: 60px;
-    border-radius: 8px; }
+    border-radius: 8px;
+    border: 1px solid #eeeeee; }
 
 .footer {
   height: 150px;
@@ -477,5 +481,9 @@ blockquote .small:after, blockquote footer:after, blockquote small:after {
     margin-left: -23px; }
   .covervidz-devices {
     margin-left: -42px; } }
+
+@media (max-width: 767px) {
+  .nav-toggle.active {
+    right: 255px; } }
 
 /*# sourceMappingURL=styles-1.css.map */

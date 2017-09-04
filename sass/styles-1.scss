@@ -237,6 +237,10 @@ body{
   margin-top: -10px
 }
 
+.container{
+  box-shadow: 0 0 8px 2px rgba(0,0,0,.08);
+}
+
 
 .center{
   margin: 0 auto;
@@ -379,10 +383,10 @@ body{
 .nav-sidebar{
   height: 100%;
   position: fixed;
-  width: 300px;
+  width: 250px;
   background: #444444;
-  z-index: 10;
-  right: -300px;
+  z-index: 100;
+  right: -250px;
   padding-top: 17px;
   transition: all ease-in-out 300ms;
   &.active{
@@ -626,11 +630,12 @@ blockquote .small:after, blockquote footer:after, blockquote small:after {
   transition: all ease-in-out 300ms;
 
   &.active{
-    right:320px;
+    right:270px;
   }
   img{
     width:60px;
     border-radius: 8px;
+    border: 1px solid #eeeeee;
   }
 }
 
@@ -660,3 +665,11 @@ blockquote .small:after, blockquote footer:after, blockquote small:after {
     margin-left: -42px;
   }
 }
+
+@media(max-width: 767px){
+  .nav-toggle.active {
+    right: 255px;
+  }
+}
+
+

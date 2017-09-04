@@ -25,11 +25,11 @@
     </a>
     <div id="sidebar" class="nav-sidebar">
         <ul>
-            <li><a id="who" class="anchor-link">Who I am </a></li>
-            <li><a id="wid" class="anchor-link">What I do</a></li>
-            <li><a data-scroll="wiu" class="anchor-link">What I use</a></li>
-            <li><a class="anchor-link">What I've done</a></li>
-            <li><a class="anchor-link">What people think of me</a></li>
+            <li><a data-anchor="who" class="anchor-link">Who I am </a></li>
+            <li><a data-anchor="wid" class="anchor-link">What I do</a></li>
+            <li><a data-anchor="wiu" class="anchor-link">What I use</a></li>
+            <li><a data-anchor="portfolio" class="anchor-link">What I've done</a></li>
+            <li><a data-anchor="wpt" class="anchor-link">What people think of me</a></li>
         </ul>
     </div>
       <div id="loader" class="loader-container active">
@@ -41,7 +41,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="container">
+        <div id="who" class="container">
             <div class="row text-center header" data-parallax="scroll" data-image-src="img/header-bg-home.jpg">
                 <h1 class="ux-header active black">
                     LESHIA THOMAS
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div name="wid" class="row text-center what-i-do">
+            <div id="wid" class="row text-center what-i-do">
                 <h1 >WHAT I DO</h1>
                 <div class="col-md-3 col-sm-3">
                     <img class="img-responsive" src="img/imac-devices.jpg"/>
@@ -74,7 +74,7 @@
                     <h3>BRANDING</h3>
                 </div>
             </div>
-            <div class="row  what-i-use" data-parallax="scroll" data-image-src="img/devices-desk.jpg">
+            <div id="wiu" class="row  what-i-use" data-parallax="scroll" data-image-src="img/devices-desk.jpg">
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-12">
@@ -210,7 +210,7 @@
                 </div>
 
             </div>
-            <div class="row text-center">
+            <div id="wpt" class="row text-center">
                 <div class="col-sm-12">
                     <h3>
                         WHAT PEOPLE THINK OF ME
