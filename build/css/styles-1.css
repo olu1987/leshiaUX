@@ -200,7 +200,7 @@ body {
   right: 0;
   top: 42.3vh; }
 
-.home-sub-header, .carousel {
+.home-sub-header, .carousel, .nav-sidebar {
   font-family: 'Raleway', sans-serif; }
 
 .hover-overlay {
@@ -272,6 +272,27 @@ body {
 
 .navigation li a {
   color: #444; }
+
+.nav-sidebar {
+  height: 100%;
+  position: fixed;
+  width: 300px;
+  background: #444444;
+  z-index: 10;
+  right: -300px;
+  padding-top: 17px;
+  transition: all ease-in-out 300ms; }
+  .nav-sidebar.active {
+    right: 0; }
+  .nav-sidebar ul {
+    list-style-type: none; }
+    .nav-sidebar ul li {
+      padding: 13px 5px; }
+      .nav-sidebar ul li a {
+        color: #ffffff;
+        cursor: pointer; }
+        .nav-sidebar ul li a:hover, .nav-sidebar ul li a:focus {
+          text-decoration: none; }
 
 .header {
   min-height: 500px;
@@ -426,6 +447,20 @@ body.bodhan {
 
 blockquote .small:after, blockquote footer:after, blockquote small:after {
   content: '\2014 \00A0'; }
+
+.nav-toggle {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 30;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all ease-in-out 300ms; }
+  .nav-toggle.active {
+    right: 320px; }
+  .nav-toggle img {
+    width: 60px;
+    border-radius: 8px; }
 
 .footer {
   height: 150px;
