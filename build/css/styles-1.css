@@ -201,7 +201,7 @@ body {
   margin-right: auto;
   left: 0;
   right: 0;
-  top: 42.3vh; }
+  top: 46vh; }
 
 .home-sub-header, .carousel, .nav-sidebar {
   font-family: 'Raleway', sans-serif; }
@@ -426,7 +426,12 @@ body.bodhan {
   height: 132px;
   clear: both;
   margin: 0px auto;
-  margin-top: 40vh; }
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: calc(46vh - 16px); }
 
 /* Spinner Circle Rotation */
 .sp-circle {
