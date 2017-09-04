@@ -480,7 +480,9 @@ blockquote .small:after, blockquote footer:after, blockquote small:after {
   .bodhan-devices {
     margin-left: -23px; }
   .covervidz-devices {
-    margin-left: -42px; } }
+    margin-left: -42px; }
+  .lnt-devices {
+    margin-left: 50px; } }
 
 @media (max-width: 767px) {
   .nav-toggle.active {
