@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd477e45-3978-47b4-9a55-b3775ef200d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/lt-icon-small.jpg" afterPath="$PROJECT_DIR$/img/lt-icon-small.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles-1.css" afterPath="$PROJECT_DIR$/build/css/styles-1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles-1.css.map" afterPath="$PROJECT_DIR$/build/css/styles-1.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/styles-1.scss" afterPath="$PROJECT_DIR$/sass/styles-1.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lnt.html" afterPath="$PROJECT_DIR$/lnt.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lnt.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lnt.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lnt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -71,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles-1.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles-1.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/styles-1.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
@@ -191,11 +187,11 @@
         <option value="$PROJECT_DIR$/sass/styles.scss" />
         <option value="$PROJECT_DIR$/buses.html" />
         <option value="$PROJECT_DIR$/bodhan.html" />
-        <option value="$PROJECT_DIR$/lnt.html" />
         <option value="$PROJECT_DIR$/covervidz.html" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/styles-1.scss" />
+        <option value="$PROJECT_DIR$/lnt.html" />
       </list>
     </option>
   </component>
@@ -404,12 +400,12 @@
       <workItem from="1503920287819" duration="3000" />
       <workItem from="1503920560198" duration="56337000" />
       <workItem from="1504435464817" duration="154000" />
-      <workItem from="1504436886851" duration="33698000" />
+      <workItem from="1504436886851" duration="34207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90192000" />
+    <option name="totallyTimeSpent" value="90701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
@@ -774,14 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lnt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/covervidz.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -810,6 +798,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="632" column="13" lean-forward="false" selection-start-line="632" selection-start-column="13" selection-end-line="632" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
           <folding />
         </state>
       </provider>
