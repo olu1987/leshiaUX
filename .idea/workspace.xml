@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd477e45-3978-47b4-9a55-b3775ef200d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bodhan.html" afterPath="$PROJECT_DIR$/bodhan.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="198" column="18" lean-forward="false" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
+            <state relative-caret-position="132">
+              <caret line="239" column="53" lean-forward="true" selection-start-line="239" selection-start-column="53" selection-end-line="239" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bodhan.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bodhan.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bodhan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="115">
+              <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
       <file leaf-file-name="lnt.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lnt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -158,6 +158,7 @@
       <find>lt-ico</find>
       <find>loader</find>
       <find>liver</find>
+      <find>vison</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,12 +173,12 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/sass/styles.scss" />
         <option value="$PROJECT_DIR$/buses.html" />
-        <option value="$PROJECT_DIR$/bodhan.html" />
         <option value="$PROJECT_DIR$/covervidz.html" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/sass/styles-1.scss" />
         <option value="$PROJECT_DIR$/lnt.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/bodhan.html" />
       </list>
     </option>
   </component>
@@ -390,15 +391,15 @@
       <workItem from="1504660093419" duration="1321000" />
       <workItem from="1505156380999" duration="750000" />
       <workItem from="1505450304895" duration="33000" />
-      <workItem from="1505947117522" duration="104000" />
+      <workItem from="1505947117522" duration="772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94669000" />
+    <option name="totallyTimeSpent" value="95337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="1" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23899849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -860,26 +861,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bodhan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/covervidz.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lnt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -902,8 +887,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="198" column="18" lean-forward="false" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
+        <state relative-caret-position="132">
+          <caret line="239" column="53" lean-forward="true" selection-start-line="239" selection-start-column="53" selection-end-line="239" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bodhan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
           <folding />
         </state>
       </provider>
